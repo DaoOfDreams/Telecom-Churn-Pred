@@ -4,10 +4,10 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 MODEL_PATHS = {
-    'XGBoost': "C:\\Users\\navne\\Desktop\\xgb_model.pkl",
-    'SVM': "C:\\Users\\navne\\Desktop\\model_svm.pkl",
-    'Logistic Regression': "C:\\Users\\navne\\Desktop\\model_lr.pkl",
-    'Random Forest': "C:\\Users\\navne\\Desktop\\model_rf.pkl"
+    'XGBoost': "models\\xgb_model.pkl",
+    'SVM': "models\\model_svm.pkl",
+    'Logistic Regression': "models\\model_lr.pkl",
+    'Random Forest': "models\\model_rf.pkl"
 }
 
 # Load the selected model
