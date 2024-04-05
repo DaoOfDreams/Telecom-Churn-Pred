@@ -3,14 +3,11 @@ import pickle
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# Define model paths relative to the base directory
 MODEL_PATHS = {
-    'XGBoost': os.path.join(BASE_DIR, "models", "xgb_model.pkl"),
-    'SVM': os.path.join(BASE_DIR, "models", "model_svm.pkl"),
-    'Logistic Regression': os.path.join(BASE_DIR, "models", "model_lr.pkl"),
-    'Random Forest': os.path.join(BASE_DIR, "models", "model_rf.pkl")
+    'XGBoost': "models/xgb_model.pkl",
+    'SVM': "models/model_svm.pkl",
+    'Logistic Regression': "models/model_lr.pkl",
+    'Random Forest': "models/model_rf.pkl"
 }
 
 # Load the selected model
